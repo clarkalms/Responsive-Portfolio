@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Clark Alms</title>
+    <link rel="stylesheet" href="assets/css/header.css">
+    <link rel="stylesheet" href="assets/css/index.css">
+    <link rel="stylesheet" href="assets/css/footer.css">
+    <link href="https://fonts.googleapis.com/css?family=Crete+Round" rel="stylesheet">
+    <!-- <link rel="stylesheet" href="assets/css/reset.css" -->
+</head>
+
+<body>
+    <header>
+        <div>
+            <section>
+                <h1>Clark Alms</h1>
+                <nav class="topmenu">
+                    <a id="navabout" href="index.html">About</a>
+                    <a id="navportfolio" href="portfolio.html">Portfolio</a>
+                    <a id="navcontact" href="contact.html">Contact</a>
+                </nav>
+            </section>
+        </div>
+
+    </header>
+    <section id="content" class="clearfix">
+
+        <h1 class="contenttitle">Contact</h1>
+        <form id="contactform" name="contactform" method="post" action="contactpage.php">
+
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" name="fname" placeholder="Your name..." maxlength="50" size="30">
+
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" name="lname" placeholder="Your last name..." maxlength="50" size="30">
+
+            <label for="email">Email</label>
+            <input type="text" id="email" name="email" placeholder="Your email address..." maxlength="80" size="30">
+
+            <label for="message">Message</label>
+            <textarea id="message" name="message" placeholder="Write something..." style="height:200px"></textarea>
+
+            <input type="submit" value="Send">
+
+        </form>
+
+    </section>
+    <footer class="footer">
+        <div>
+            <section class="copyright">
+
+                <h3>Copyright &copy; 2019</h3>
+            </section>
+        </div>
+    </footer>
+</body>
+
+</html>

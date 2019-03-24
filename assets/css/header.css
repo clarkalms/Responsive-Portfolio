@@ -1,0 +1,63 @@
+header {
+    background-color: black;
+    height: 3em;
+    padding: 0;
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+    border-bottom: .35em solid #a80808;
+    
+
+}
+
+header div {
+    background-color: black;
+    width: 960px;
+    margin: 0 auto;
+    height: 3em;
+    position: relative;
+    border-bottom: .35em solid #a80808;
+}
+
+header h1 {
+    float: left;
+    height: 2.05em;
+    padding: .45em 1em;
+    font-size: 1.45em;
+    /* font-variant: small-caps; */
+    margin: 0 auto;
+    box-sizing: border-box;
+    background-color: #2f6686;
+    color: black;
+    font-weight: bolder;
+    font-family: 'Crete Round', serif;
+    text-align: center;
+    position: absolute;
+    /* border-radius: 4px; */
+}
+
+nav.topmenu {
+    float: right;
+    margin-top: 15px;
+}
+
+nav a {
+    padding-right: 2em;
+    text-decoration: none;
+    font-size: 1em;
+    color: #2f6686;
+    font-family: 'Crete Round', serif;
+}
+#navabout {
+    border-right: 1px solid #a80808;
+    margin: 2em;
+}
+#navportfolio {
+    border-right: 1px solid #a80808;
+    margin-right: 2em;
+    margin-left: 0;
+}
+#navcontact {
+    padding-right: 0;
+}

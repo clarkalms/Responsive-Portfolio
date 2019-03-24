@@ -1,0 +1,21 @@
+footer {
+    background-color: black;
+    text-align: center;
+    height: 3em;
+    border: top;
+    border-top: .35em solid;
+    border-top-color: #a80808;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+.copyright {
+    font-size: 10px;
+    margin: 0 auto;
+    padding: .5em;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #2f6686;
+    font-family: 'Crete Round', serif;   
+}
