@@ -19,3 +19,15 @@ footer {
     color: #2f6686;
     font-family: 'Crete Round', serif;   
 }
+/* @media only screen and (max-width: 980px) {
+
+}
+@media only screen and (max-width: 768px) {
+footer {
+    border-top-color: #2f6686;
+} */
+@media only screen and (max-width: 640px) {
+    footer {
+        border-top: .35em solid #2f6686;
+    }
+}
